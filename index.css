@@ -1,0 +1,355 @@
+body {
+	padding-top: 70px;
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1734469/clouds.png");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+#cartonato {
+  position: fixed;
+  width: 29%;
+  top: 55%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.footer {
+  position: absolute;
+  bottom: 8px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Arial', sans-serif;;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+  cursor: pointer;
+}
+
+.footer:link {
+  color: red;
+  text-transform: none;
+}
+
+.footer:visited {
+  color: red;
+  text-transform: none;
+}
+
+.footer:active {
+  color: red;
+  text-transform: none;
+}
+
+.footer:hover {
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink 
+{  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+}
+
+#text1 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text2 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text3 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text4 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text5 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text6 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text7 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text8 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text9 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text10 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text11 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text12 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text13 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#text14 {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#draggable1 {          /* angrytibo */
+  position: fixed;
+  width: 4.5%;
+  left: 57%;
+  top: 10%;
+  cursor: grabbing;
+  z-index: 110;
+}
+
+#draggable2 {         /* billboard */      
+  position: fixed;
+  width: 12%;
+  left: 22%;
+  top: 9%;
+  cursor: alias;
+  z-index: 10;
+  z-index: 110;
+}
+
+#draggable3 {          /* capptu */
+  position: fixed;
+  width: 4%;
+  left: 40%;
+  top: 10%;
+  cursor: grabbing;
+  z-index: 110;
+}
+
+#draggable4 {          /* learner */
+  position: fixed;
+  width: 11%;
+  left: 30%;
+  top: 60%;
+  cursor: grabbing;
+  z-index: 110;
+}
+
+#draggable5 {          /* multitask */
+  position: fixed;
+  width: 9%;
+  left: 87%;
+  top: 7%;
+  cursor: alias;
+  z-index: 101;
+}
+
+#draggable6 {          /* parrshirt */
+  position: fixed;
+  width: 11.5%;
+  left: 3%;
+  top: 10%;
+  cursor: alias;
+  z-index: 10;
+}
+
+#draggable7 {          /* photographer */
+  position: fixed;
+  width: 7.5%;
+  left: 60%;
+  top: 55%;
+  cursor: alias;
+  z-index: 110;
+}
+
+#draggable8 {          /* sumo */
+  position: fixed;
+  width: 29%;
+  left: 63%;
+  top: 10%;
+  cursor: grabbing;
+  z-index: 100;
+}
+
+#draggable9 {           /* tunisia */
+  position: fixed;
+  width: 25%;
+  left: 5%;
+  top: 30%;
+  cursor: grabbing;
+  z-index: 100;
+}
+
+#draggable10 {           /* exhibition */
+  position: fixed;
+  width: 20%;
+  left: 75%;
+  top: 20%;
+  cursor: alias;
+  z-index: 110;
+}
+
+#draggable11 {           /* exhibition */
+  position: fixed;
+  width: 4%;
+  left: 48.1%;
+  top: 41%;
+  cursor: alias;
+  z-index: 1;
+}
+
+#draggable12 {           /* exhibition */
+  position: fixed;
+  width: 3%;
+  left: 48.7%;
+  top: 50%;
+  cursor: alias;
+  z-index: 1;
+}
+
+#draggable13 {           /* sales */
+  position: fixed;
+  width: 6%;
+  left: 40%;
+  top: 82%;
+  cursor: alias;
+  z-index: 1;
+}
+
+#draggable14 {           /* enlarge */
+  position: fixed;
+  width: 12%;
+  left: 31%;
+  top: 16%;
+  cursor: alias;
+  z-index: 10;
+  z-index: 110;
+}
