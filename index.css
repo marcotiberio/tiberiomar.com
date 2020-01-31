@@ -1,3 +1,10 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
 	padding-top: 70px;
 	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1734469/clouds.png");
